@@ -1,0 +1,20 @@
+.instaTitle{
+    font-family: amsterdam;
+}
+
+.LoginBtn{
+    background-color: #0095F6;
+}
+
+.fbtxt{
+    color: #3B5998;
+    font-weight: bold;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 4px 7px 3px 6px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
