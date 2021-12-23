@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'amsterdam';
+  src: local('amsterdam'), url(./fonts/Amsterdam-ZVGqm.ttf) format('truetype');
+}
