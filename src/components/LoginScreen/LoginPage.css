@@ -17,4 +17,8 @@
     padding: 4px 7px 3px 6px;
     margin-right: 10px;
     border-radius: 4px;
-  }
+}
+
+input {
+    outline: none;
+}
