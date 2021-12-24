@@ -1,9 +1,21 @@
+import { useHistory, useLocation } from "react-router";
+
 import googlePng from '../../assets/gstore.png';
 import appstorePng from '../../assets/appstore.png'
 
 import './LoginPage.css'
 
 export default function LoginPage() {
+
+    const history = useHistory();
+
+    const handleNavigation = (e) => {
+        e.preventDefault();
+        history.push({
+            pathname: '/register'
+        })
+    }
+
     return (
         <div className='bg-gray-100 flex justify-center items-center flex-col w-full h-screen'>
 
@@ -29,7 +41,7 @@ export default function LoginPage() {
             </div>
 
             <div className='px-16 bg-white h-16 flex justify-center items-center border rounded-md shadow-md'>
-                <span className='flex'>Don't have an account? <p className='ml-2 text-blue-600 font-medium cursor-pointer'>Sign up</p></span>
+                <span className='flex'>Don't have an account? <p className='ml-2 text-blue-600 font-medium cursor-pointer' onClick={(e) => handleNavigation(e)}>Sign up</p></span>
             </div>
 
             <div className='my-4'>Get the app.</div>
