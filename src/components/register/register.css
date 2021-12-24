@@ -1,0 +1,18 @@
+.register-fbtxt{
+    color: #fff;
+}
+
+.register-fa {
+    background: #fff;
+    color: #0095F6;
+    border-radius: 0px;
+    font-size: x-small;
+    padding-left: 5px;
+}
+
+.wlcm-text {
+    font-size: 17px;
+    color: rgb(142, 142, 142);
+    font-weight: 600;
+    line-height: 20px;
+}

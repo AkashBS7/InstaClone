@@ -1,4 +1,3 @@
-import React from 'react'
 import googlePng from '../../assets/gstore.png';
 import appstorePng from '../../assets/appstore.png'
 
@@ -11,11 +10,11 @@ export default function LoginPage() {
             <div className='px-12 mt-10 bg-white flex justify-center items-center flex-col mb-5 border rounded-md shadow-md'>
                 <div className='my-4'><img src="https://see.fontimg.com/api/renderfont4/ZVGqm/eyJyIjoiZnMiLCJoIjoxMDgsInciOjEyNTAsImZzIjo4NiwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/SW5zdGFncmFt/amsterdam.png" alt="Instagram" width={155} height={155}/></div>
                 <div className='flex flex-col '>
-                    <input type='text' className='border h-10 w-64 rounded bg-gray-100 mb-2 pl-1' placeholder='Phone number, username, or email'/>
-                    <input type='password' className='border h-10 w-64 rounded bg-gray-100 mb-4 pl-1' placeholder='Password'/>
+                    <input type='text' className='border h-10 w-64 rounded bg-gray-100 mb-2 pl-2 text-xs' placeholder='Phone number, username, or email'/>
+                    <input type='password' className='border h-10 w-64 rounded bg-gray-100 mb-4 pl-2 text-xs' placeholder='Password'/>
                 </div>
                 <div>
-                    <button className='LoginBtn w-64 h-8 rounded text-white mb-8'>Log In</button>
+                    <button className='LoginBtn w-64 h-8 rounded text-white mb-8 font-medium'>Log In</button>
                 </div>
 
                 <div className="relative mb-6 flex items-center w-full">
