@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path='/' component={Timeline} ></Route>
+          
           <Route exact path="/login" component = {LoginPage}></Route>
           <Route exact path="/register" component = {Register}></Route>
         </Switch>
