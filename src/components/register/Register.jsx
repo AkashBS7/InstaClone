@@ -23,7 +23,7 @@ export default function Register() {
                 <p className='w-72 mb-5 text-center wlcm-text'>Sign up to see photos and videos from your friends.</p>
                 <div>
                     <button className='LoginBtn w-64 h-8 rounded text-white mb-4 font-medium'>
-                        <p className='fbtxt register-fbtxt text-md cursor-pointer'><p className="fa fa-facebook register-fa"></p>Log in with Facebook</p>
+                        <p className='fbtxt register-fbtxt text-md cursor-pointer'><i className="fa fa-facebook register-fa"></i>Log in with Facebook</p>
                     </button>
                 </div>
                 <div className="relative mb-4 flex items-center w-64">
